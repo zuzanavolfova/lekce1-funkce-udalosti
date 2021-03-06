@@ -1,6 +1,14 @@
 // tady je místo pro náš program
 
-document.querySelector('#vysledek').innerHTML = secti(4, 5);
+/**
+ * Zobrazí výsledek sečtení dvou čísel. Na sečtení se využívá interní funkce.
+ * 
+ * @param {int} a 
+ * @param {int} b 
+ */
+function zobrazVysledek(a, b) {
+	document.querySelector('#vysledek').innerHTML = secti(a, b);
+}
 
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
