@@ -26,6 +26,12 @@ function secti(a, b) {
  */
 function upozorni() {
 	alert('Gratulace, právě si spustila tuto funkci!');
+	console.log('Gratulace, právě si spustila tuto funkci!');
+
+	let squareElement = document.getElementsByClassName('ctverecek')[0]
+	squareElement.innerHTML = 'Gratulace, právě si spustila tuto funkci!';
+	// Hmmm... dostali jsme se do problému s délkou řetězce a šířkou elementu. Pojďme to vyřešit.
+	squareElement.style.width = '400px';
 }
 
 /**
