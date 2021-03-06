@@ -19,3 +19,12 @@ function secti(a, b) {
 function upozorni() {
 	alert('Gratulace, právě si spustila tuto funkci!');
 }
+
+/**
+ * Upraví barvu pozadí předaného prvku
+ * 
+ * @param {string} elementSelector 
+ */
+function upravBarvu(elementSelector) {
+	document.querySelector(elementSelector).style.backgroundColor = 'green';
+}
