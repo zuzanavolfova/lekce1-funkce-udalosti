@@ -3,11 +3,12 @@
 /**
  * Zobrazí výsledek sečtení dvou čísel. Na sečtení se využívá interní funkce.
  * 
+ * @param {string} selector
  * @param {int} a 
  * @param {int} b 
  */
-function zobrazVysledek(a, b) {
-	document.querySelector('#vysledek').innerHTML = secti(a, b);
+function zobrazVysledek(selector, a, b) {
+	document.querySelector(selector).innerHTML = secti(a, b);
 }
 
 /**
