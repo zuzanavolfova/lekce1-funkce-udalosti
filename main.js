@@ -20,4 +20,8 @@ function upozorni() {
     alert("Gratulace, právě jsi spustila tuto funkci!");
 }
 
-function upozorni
+function zmenBarvu() {
+    let ctverecekText = document.querySelector('ctverecek');
+    ctverecekText.style.color = 'red';
+
+}
