@@ -9,13 +9,15 @@ document.querySelector("#vysledek").innerHTML = secti(4, 5);
  * @param {int} b
  */
 function secti(a, b) {
-  let c = a + b;
-  return c;
+    let c = a + b;
+    return c;
 }
 
 /**
  * Upozorní uživatele při spuštění.
  */
 function upozorni() {
-  alert("Gratulace, právě jsi spustila tuto funkci!");
+    alert("Gratulace, právě jsi spustila tuto funkci!");
 }
+
+function upozorni
