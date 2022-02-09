@@ -12,8 +12,8 @@ function zobrazVysledek(selector, a, b) {
  */
 
 let a = Number(
-    prompt("vlož první číslo"))
-let b = Number(prompt("vlož druhé číslo"))
+    prompt('vlož první číslo'))
+let b = Number(prompt('vlož druhé číslo'))
 
 function secti(a, b) {
     let c = a + b;
@@ -26,12 +26,13 @@ function secti(a, b) {
 function upozorni() {
     alert("Gratulace, právě jsi spustila tuto funkci!");
     console.log("Gratulace, právě jsi spustila tuto funkci!");
-    document.querySelector(".ctverecek").innerHTML = "Gratulace, právě jsi spustila tuto funkci!";
+    document.querySelector('.ctverecek').innerHTML = "Gratulace, právě jsi spustila tuto funkci!";
+    document.querySelector('.ctverecek').style.width = '380px';
 
 }
 
 
-function zmenBarvuCtverecku() {
-    document.querySelector(".ctverecek").style.backgroundColor = 'green';
+function zmenBarvuCtverce() {
+    document.querySelector('.ctverecek').style.backgroundColor = 'green';
 
 }
