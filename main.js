@@ -1,5 +1,6 @@
 // tady je místo pro náš program
 
+
 document.querySelector("#vysledek").innerHTML = secti(4, 5);
 
 /**
@@ -8,6 +9,8 @@ document.querySelector("#vysledek").innerHTML = secti(4, 5);
  * @param {int} a
  * @param {int} b
  */
+
+
 function secti(a, b) {
     let c = a + b;
     return c;
@@ -20,11 +23,8 @@ function upozorni() {
     alert("Gratulace, právě jsi spustila tuto funkci!");
 }
 
-function zmenBarvuCtverecku(elementSelector) {
-    document.querySelector(elementSelector).style.backgroundColor = 'green';
+
+function zmenBarvuCtverecku() {
+    document.querySelector(".ctverecek").style.backgroundColor = 'green';
 
 }
-
-/*function upravBarvu(elementSelector) {
-	document.querySelector(elementSelector).style.backgroundColor = 'green';
-}*/
