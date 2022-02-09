@@ -1,7 +1,8 @@
 // tady je místo pro náš program
 
-
-document.querySelector("#vysledek").innerHTML = secti(4, 5);
+function zobrazVysledek(selector, a, b) {
+    document.querySelector(selector).innerHTML = secti(a, b);
+}
 
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
@@ -10,6 +11,9 @@ document.querySelector("#vysledek").innerHTML = secti(4, 5);
  * @param {int} b
  */
 
+let a = Number(
+    prompt("vlož první číslo"))
+let b = Number(prompt("vlož druhé číslo"))
 
 function secti(a, b) {
     let c = a + b;
@@ -21,6 +25,9 @@ function secti(a, b) {
  */
 function upozorni() {
     alert("Gratulace, právě jsi spustila tuto funkci!");
+    console.log("Gratulace, právě jsi spustila tuto funkci!");
+    document.querySelector(".ctverecek").innerHTML = "Gratulace, právě jsi spustila tuto funkci!";
+
 }
 
 
