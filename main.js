@@ -25,11 +25,11 @@ function secti(a, b) {
 function upozorni() {
     alert("Gratulace, právě jsi spustila tuto funkci!");
     console.log("Gratulace, právě jsi spustila tuto funkci!");
-    document.querySelector('.ctverecek').innerHTML = "Gratulace, právě jsi spustila tuto funkci!";
-    document.querySelector('.ctverecek').style.width = '380px';
+    let ctverecek = document.querySelector('.ctverecek');
+    ctverecek.innerHTML = "Gratulace, právě jsi spustila tuto funkci!";
+    ctverecek.style.width = '380px';
 
 }
-
 
 function zmenBarvuCtverce() {
     document.querySelector('.ctverecek').style.backgroundColor = 'green';
