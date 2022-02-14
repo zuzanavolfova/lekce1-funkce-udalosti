@@ -16,8 +16,7 @@ let a = Number(
 let b = Number(prompt('vlož druhé číslo'))
 
 function secti(a, b) {
-    let c = a + b;
-    return c;
+    return a + b;
 }
 
 /**
